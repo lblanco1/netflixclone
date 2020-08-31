@@ -57,6 +57,18 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>  
+
+      <footer>
+        Feito com <span role="img" aria-label="coração">🧡</span> por Lucas Blanco<br/>
+        Direitos de imagem para Netflix<br/>
+        Dados pegos do site Themoviedb.org
+      </footer>
+
+      {movieList.length <= 0 &&
+      <div className="loading">
+        <img src="https://cdn.lowgif.com/full/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif" alt="Carregando"/>
+      </div>
+      }
     </div>
   );
 }
