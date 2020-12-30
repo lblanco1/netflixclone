@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Este projeto é simplesmente um clone no Netflix.
-Você pose acessar usando o link https://netflixclone-weld.vercel.app/
-Tecnologias usadas: HTML, CSS e ReactJs
+## Este projeto é simplesmente um clone do Netflix, usamos uma API externa para pergarmos as informações de cada filme.
+### Você pose acessar usando o link https://netflixclone-weld.vercel.app/
+#### Tecnologias usadas: HTML, CSS e ReactJs
 
 ![NetflixF](https://user-images.githubusercontent.com/44181055/93687413-2325b900-fa94-11ea-9b97-41f9dc5aa128.png)
 ![NetMovel](https://user-images.githubusercontent.com/44181055/93687428-42244b00-fa94-11ea-8a8f-cace145f91d3.png)
